@@ -1,26 +1,64 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* Base cream background with dark text */
+  --background: #fef5e7;
+  --foreground: #0f172a;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+
+  /* ANYAR brand palette */
+  --color-anyar-cream: #fef5e7;
+  --color-anyar-cream-soft: #fdf0da;
+  --color-anyar-navy: #020617;
+  --color-anyar-navy-soft: #0b1220;
+  --color-anyar-gold: #eab308;
+  --color-anyar-gold-soft: #facc15;
+  --color-anyar-gold-muted: rgba(234, 179, 8, 0.12);
+  --color-anyar-card: rgba(255, 255, 255, 0.9);
+  --color-anyar-border: rgba(148, 163, 184, 0.5);
+
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #0b1220;
+    --foreground: #e5e7eb;
   }
 }
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 body {
-  background: var(--background);
+  margin: 0;
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at top, rgba(234, 179, 8, 0.22) 0, transparent 55%),
+    var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.glass-card {
+  @apply bg-white/80 border border-slate-200/70 backdrop-blur-md shadow-sm;
+}
+
+.section-padding {
+  @apply px-4 sm:px-6 lg:px-8 xl:px-12;
+}
+
+.max-width {
+  @apply mx-auto w-full max-w-6xl;
 }
