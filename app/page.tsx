@@ -210,7 +210,7 @@ export default function Home() {
                     <CalendarDays className="h-3.5 w-3.5" />
                   </div>
                   <div>
-                    <p className="font-semibold text-slate-100">
+                    <p className="font-semibold text-slate-500">
                       Corporate &amp; Social
                     </p>
                     <p className="text-[11px] leading-relaxed text-slate-400">
@@ -223,7 +223,7 @@ export default function Home() {
                     <HandCoins className="h-3.5 w-3.5" />
                   </div>
                   <div>
-                    <p className="font-semibold text-slate-100">
+                    <p className="font-semibold text-slate-500">
                       Transparan &amp; efisien
                     </p>
                     <p className="text-[11px] leading-relaxed text-slate-400">
@@ -236,7 +236,7 @@ export default function Home() {
                     <CheckCircle2 className="h-3.5 w-3.5" />
                   </div>
                   <div>
-                    <p className="font-semibold text-slate-100">
+                    <p className="font-semibold text-slate-500">
                       One-stop solution
                     </p>
                     <p className="text-[11px] leading-relaxed text-slate-400">
@@ -931,7 +931,7 @@ export default function Home() {
 
             <div className="space-y-4 text-xs">
               <div className="glass-card rounded-2xl p-4">
-                <h3 className="text-sm font-semibold text-slate-50">
+                <h3 className="text-sm font-semibold text-slate-500">
                   Kontak Langsung
                 </h3>
                 <p className="mt-1 text-[11px] text-slate-400">
@@ -939,18 +939,18 @@ export default function Home() {
                   tim ANYAR.
                 </p>
                 <div className="mt-3 space-y-2">
-                  <div className="flex items-center gap-2 text-[11px] text-slate-200">
+                  <div className="flex items-center gap-2 text-[11px] text-slate-500">
                     <div className="flex h-7 w-7 items-center justify-center rounded-full bg-slate-800/90 text-anyar-gold">
                       <PhoneCall className="h-3.5 w-3.5" />
                     </div>
                     <div>
-                      <p className="font-medium">+62 812-0000-0000</p>
+                      <p className="font-medium">+62 812-2011-3136</p>
                       <p className="text-[10px] text-slate-400">
                         WhatsApp / Call (placeholder)
                       </p>
                     </div>
                   </div>
-                  <div className="flex items-center gap-2 text-[11px] text-slate-200">
+                  <div className="flex items-center gap-2 text-[11px] text-slate-500">
                     <div className="flex h-7 w-7 items-center justify-center rounded-full bg-slate-800/90 text-anyar-gold">
                       <Mail className="h-3.5 w-3.5" />
                     </div>
@@ -961,7 +961,7 @@ export default function Home() {
                       </p>
                     </div>
                   </div>
-                  <div className="flex items-center gap-2 text-[11px] text-slate-200">
+                  <div className="flex items-center gap-2 text-[11px] text-slate-500">
                     <div className="flex h-7 w-7 items-center justify-center rounded-full bg-slate-800/90 text-anyar-gold">
                       <MapPin className="h-3.5 w-3.5" />
                     </div>
@@ -980,7 +980,7 @@ export default function Home() {
                   <p className="text-[11px] uppercase tracking-[0.2em] text-anyar-gold">
                     ANYAR on Social
                   </p>
-                  <p className="mt-1 text-sm font-semibold text-slate-50">
+                  <p className="mt-1 text-sm font-semibold text-slate-500">
                     Ikuti highlight acara dan behind-the-scenes kami.
                   </p>
                 </div>
