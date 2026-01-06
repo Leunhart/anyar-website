@@ -119,13 +119,15 @@ export default function Home() {
               ))}
             </div>
 
-            <button
-              onClick={() => scrollToSection("contact")}
+            <a
+              href="https://wa.me/082120113136"
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex items-center gap-2 rounded-full bg-anyar-gold px-4 py-2 text-sm font-semibold text-slate-950 shadow-[0_0_30px_rgba(250,204,21,0.35)] transition hover:bg-anyar-gold-soft focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-anyar-gold-soft focus-visible:ring-offset-2 focus-visible:ring-offset-slate-950"
             >
               Book Now
               <ChevronRight className="h-4 w-4" />
-            </button>
+            </a>
           </div>
         </nav>
       </header>
@@ -605,17 +607,17 @@ export default function Home() {
                 {[
                   {
                     label: "Events Managed",
-                    value: "50+",
+                    value: "Soon",
                     desc: "Dalam berbagai format dan skala acara.",
                   },
                   {
                     label: "Client Satisfaction",
-                    value: "100%",
+                    value: "Soon",
                     desc: "Feedback positif & repeat clients.",
                   },
                   {
                     label: "Average NPS",
-                    value: "9.4/10",
+                    value: "Soon",
                     desc: "Rata-rata skor kepuasan tamu & klien.",
                   },
                 ].map((stat, idx) => (
@@ -651,10 +653,10 @@ export default function Home() {
                 transition={{ duration: 0.5 }}
               >
                 <p className="text-xs uppercase tracking-[0.26em] text-anyar-gold">
-                  Testimonials
+                  Our Promise
                 </p>
                 <h3 className="mt-1 text-lg font-semibold text-slate-900">
-                  Apa kata klien tentang ANYAR.
+                  Apa Yang Anyar Bisa Tonjolkan.
                 </h3>
               </motion.div>
 
@@ -662,15 +664,15 @@ export default function Home() {
                 {[
                   {
                     quote:
-                      "Tim ANYAR sangat rapi dari pra-produksi sampai hari H. Semua kebutuhan brand kami diakomodasi tanpa mengorbankan experience tamu.",
-                    name: "Head of Marketing",
-                    role: "FMCG Brand",
+                      "Kami menghadirkan konsep acara yang segar, kreatif, dan sesuai dengan identitas brand Anda. Setiap detail dirancang untuk menciptakan pengalaman yang tak terlupakan.",
+                    name: "Kreativitas Tanpa Batas",
+                    role: "Inovasi dalam Setiap Acara",
                   },
                   {
                     quote:
-                      "Kami merasa sangat terbantu. Rundown tertata, vendor terkoordinasi, dan kami bisa fokus menikmati acara tanpa rasa khawatir.",
-                    name: "Private Client",
-                    role: "Wedding Reception",
+                      "Dengan tim profesional dan vendor terpercaya, kami memastikan setiap acara berjalan lancar, tepat waktu, dan sesuai dengan harapan Anda.",
+                    name: "Eksekusi yang Sempurna",
+                    role: "Keandalan dan Presisi",
                   },
                 ].map((item, idx) => (
                   <motion.figure
@@ -683,7 +685,7 @@ export default function Home() {
                     className="glass-card flex h-full flex-col justify-between rounded-2xl p-4 text-xs"
                   >
                     <p className="text-[11px] leading-relaxed text-slate-700">
-                      “{item.quote}”
+                      "{item.quote}"
                     </p>
                     <figcaption className="mt-4 border-t border-slate-200 pt-3 text-[11px] text-slate-600">
                       <span className="font-semibold text-slate-900">
@@ -699,7 +701,7 @@ export default function Home() {
           </div>
         </section>
 
-        {/* PRICING PACKAGES */}
+        {/* PRICING PACKAGES
         <section id="pricing" className="section-padding pt-0 sm:pt-4 lg:pt-6">
           <div className="max-width space-y-6">
             <motion.div
@@ -821,7 +823,7 @@ export default function Home() {
               ))}
             </div>
           </div>
-        </section>
+        </section> */}
 
         {/* CONTACT / FOOTER */}
         <section
